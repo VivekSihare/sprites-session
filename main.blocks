@@ -1,0 +1,10 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="nClN!S`fPg0=o7i*UoiV">Player</variable><variable type="KIND_SpriteKind" id="^m*f$D[p%=x6^ph2skp1">Projectile</variable><variable type="KIND_SpriteKind" id="p:~#gtWpbXEV~*bZNV@#">Food</variable><variable type="KIND_SpriteKind" id="!eD0S(Y]Q7Uf,AKs6^Yf">Enemy</variable><variable id="@SGCB8kF1-5r6Q@:.H31">newPlayer</variable><variable id="CF{Cnjs0D@/@?6YaF2RE">mySprite</variable></variables><block type="pxt-on-start" id="hbc]aj,LR{TXAy@1WjA," x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="5O]?)]I+_yt7LnxB6*v|"><value name="color"><shadow type="colorindexpicker" id="P$#KRlPe?ETZJjjBUkJr"><field name="index">1</field></shadow></value><next><block type="variables_set" id="2~@igiurh4$YTY:*LaP."><field name="VAR" id="@SGCB8kF1-5r6Q@:.H31">newPlayer</field><value name="VALUE"><shadow type="math_number" id="KegZ?q`r@-]`Izj:_~QF"><field name="NUM">0</field></shadow><block type="spritescreate" id="|3SNH(4larj}56IQs?fQ"><value name="img"><shadow type="screen_image_picker" id="iXE3!2oVYCsOO.t`M+ER"><field name="img">img`
+. . . . . . . . 
+. . 2 2 2 2 . . 
+. 2 2 2 2 2 2 . 
+. 2 4 2 2 4 2 . 
+. 2 2 2 2 2 2 . 
+. . 2 2 2 2 . . 
+. . 2 . . 2 . . 
+. . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="~^Av9p3NIcyU^ZJCJzn]"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="=pGF8noJd},H{zsmMeTy"><value name="sprite"><block type="variables_get" id="FLy{|=_$Oebu;lZ`i-aY"><field name="VAR" id="@SGCB8kF1-5r6Q@:.H31">newPlayer</field></block></value><value name="x"><shadow type="positionPicker" id="UmpeXjwBjLZWG+vxV+/p"><field name="index">80</field></shadow></value><value name="y"><shadow type="positionPicker" id="CWUjbXz_EmjnvsnWlfPG"><field name="index">60</field></shadow></value></block></next></block></next></block></statement></block></xml>
