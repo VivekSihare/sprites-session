@@ -31,4 +31,4 @@ It incldues tips and teaching strategies for creating sprites
 To Edit this repository in MakeCode:
 - Open https://arcade.makecode.com/
 - Click on *Import* and then *Import URL*
-- Paste https://github.com/VivekSihare/CodeClub-Arcade/1-Sprites and click import
+- Paste [https://github.com/VivekSihare/CodeClub-Arcade/1-Sprites](https://github.com/viveksihare/sprites-session) and click import
