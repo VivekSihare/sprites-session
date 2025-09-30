@@ -49,11 +49,27 @@ In this lession, you'll be creating a simple program that shows the sprites
 - mySprite set position to x: 80 y: 60
 - Change mySprite to player (or whatever name you used).
 
-### 6. Test Your Program
+### 6. Create the Enemy Sprite and set position
+  - From Sprites, drag another set mySprite to sprite of kind.
+  - Rename it to enemy.
+  - Set kind to Enemy.
+  - Draw your enemy character.
+  - Add set enemy position to x 30 y 30.
+  - From Sprites → set velocity, make the enemy move (for example vx = 50, vy = 50).
+  - From Sprites, use set enemy bounce on wall and set it to true.
+
+### 7. Create the Coin (Food) and set position
+  - From Sprites, drag another set mySprite to sprite of kind.
+  - Rename it to coin.
+  - Set kind to Food.
+  - Draw a small coin or food item.
+  - Add set coin position to x 120 y 80.
+
+### 8. Test Your Program
   - Whatch the **simulator** on the left side of MakeCode
   - it should display sprite which has been created.
 
- ### 7. Download Your Program
+### 9. Download Your Program
   - Click **Download**
   - Select hardware as **Kitronik Arcade for micro:bit**
   - Save the .hex file
